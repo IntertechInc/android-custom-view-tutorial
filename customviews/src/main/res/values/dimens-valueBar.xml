@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="value_bar_height">60dp</dimen>
+    <dimen name="value_bar_padding_top">16dp</dimen>
+    <dimen name="value_bar_barHeight">10dp</dimen>
+    <dimen name="value_bar_circleRadius">12dp</dimen>
+    <dimen name="value_bar_circleTextSize">14dp</dimen>
+    <dimen name="value_bar_labelTextSize">18dp</dimen>
+    <dimen name="value_bar_maxValueTextSize">24dp</dimen>
+    <dimen name="value_bar_padding_horizontal">12dp</dimen>
+    <dimen name="value_bar_spaceAfterBar">14dp</dimen>
+</resources>

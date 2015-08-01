@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- override valueSelector dimension defined in library module, if desired -->
+    <dimen name="valueSelector_button_hMargin">15dp</dimen>
+    <dimen name="valueSelector_button_insideMargin">0dp</dimen>
+</resources>
+

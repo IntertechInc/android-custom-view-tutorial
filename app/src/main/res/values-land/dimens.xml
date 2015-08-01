@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="valueSelector_height">80dp</dimen>
+    <dimen name="valueSelector_hMargin">100dp</dimen>
+
+    <dimen name="updateButtonMargin">10dp</dimen>
+
+
+
+</resources>

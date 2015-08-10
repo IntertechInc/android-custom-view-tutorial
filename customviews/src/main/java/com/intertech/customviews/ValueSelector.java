@@ -102,7 +102,7 @@ public class ValueSelector extends RelativeLayout {
     public void setValue(int newValue) {
         int value = newValue;
         if(newValue < minValue) {
-            value = newValue;
+            value = minValue;
         } else if (newValue > maxValue) {
             value = maxValue;
         }

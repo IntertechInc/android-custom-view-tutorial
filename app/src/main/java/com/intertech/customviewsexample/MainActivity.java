@@ -30,14 +30,25 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 int value = valueSelector.getValue();
                 valueBar.setValue(value);
+            }
+        });
 
-                //code to use Object Animation instead of the built-in ValueBar animation
-                //if you use this, be sure the call valueBar.setAnimated(false);
-                /*
-                ObjectAnimator anim = ObjectAnimator.ofInt(valueBar, "value", valueBar.getValue(), value);
-                anim.setDuration(1000);
-                anim.start();
-                */
+
+        final ValueSelector valueSelector2 = (ValueSelector) findViewById(R.id.valueSelector2);
+        valueSelector2.setMinValue(0);
+        valueSelector2.setMaxValue(100);
+
+        final ValueBar valueBar2 = (ValueBar) findViewById(R.id.valueBar2);
+        valueBar2.setMaxValue(100);
+        valueBar2.setAnimated(true);
+        valueBar2.setAnimationDuration(4000l);
+
+        Button updateButton2 = (Button) findViewById(R.id.updateButton2);
+        updateButton2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int value = valueSelector2.getValue();
+                valueBar2.setValue(value);
             }
         });
     }

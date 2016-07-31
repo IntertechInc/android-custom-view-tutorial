@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- override value_bar values defined in library module, if desired -->
+    <dimen name="value_bar_height">30dp</dimen>
+    <dimen name="value_bar_padding_top">8dp</dimen>
+    <dimen name="value_bar_barHeight">6dp</dimen>
+    <dimen name="value_bar_circleRadius">8dp</dimen>
+    <dimen name="value_bar_circleTextSize">7dp</dimen>
+    <dimen name="value_bar_labelTextSize">9dp</dimen>
+    <dimen name="value_bar_maxValueTextSize">12dp</dimen>
+    <dimen name="value_bar_padding_horizontal">20dp</dimen>
+    <dimen name="value_bar_spaceAfterBar">14dp</dimen>
+</resources>

@@ -1,11 +1,11 @@
 <resources>
     <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
 
-    <dimen name="valueSelector_height">80dp</dimen>
+    <dimen name="valueSelector_height">60dp</dimen>
     <dimen name="valueSelector_hMargin">100dp</dimen>
 
-    <dimen name="updateButtonMargin">10dp</dimen>
+    <dimen name="updateButtonMargin">0dp</dimen>
 
 
 

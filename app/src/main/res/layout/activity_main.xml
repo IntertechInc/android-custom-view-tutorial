@@ -18,7 +18,6 @@
             android:layout_marginRight="@dimen/valueSelector_hMargin">
     </com.intertech.customviews.ValueSelector>
 
-
     <Button
         android:id="@+id/updateButton"
         android:layout_width="wrap_content"
@@ -48,5 +47,43 @@
         custom:maxValueTextSize="@dimen/value_bar_maxValueTextSize"
         />
 
+
+    <com.intertech.customviews.ValueSelector
+        android:id="@+id/valueSelector2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/valueSelector_height"
+        android:layout_marginLeft="@dimen/valueSelector_hMargin"
+        android:layout_marginRight="@dimen/valueSelector_hMargin">
+    </com.intertech.customviews.ValueSelector>
+
+
+    <Button
+        android:id="@+id/updateButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/updateButtonMargin"
+        android:text="Update"/>
+
+    <com.intertech.customviews.ValueBar
+        android:id="@+id/valueBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/value_bar_padding_top"
+        android:paddingLeft="@dimen/value_bar_padding_horizontal"
+        android:paddingRight="@dimen/value_bar_padding_horizontal"
+        custom:barHeight="@dimen/value_bar_barHeight"
+        custom:baseColor="@color/navy"
+        custom:circleRadius="@dimen/value_bar_circleRadius"
+        custom:spaceAfterBar="@dimen/value_bar_spaceAfterBar"
+        custom:circleTextColor="@color/white"
+        custom:circleTextSize="@dimen/value_bar_circleTextSize"
+        custom:fillColor="@color/red"
+        custom:labelText="@string/valueBarLabel"
+        custom:labelTextColor="@color/navy"
+        custom:labelTextSize="@dimen/value_bar_labelTextSize"
+        custom:maxValueTextColor="@color/navy"
+        custom:maxValueTextSize="@dimen/value_bar_maxValueTextSize"
+        />
 
 </LinearLayout>
